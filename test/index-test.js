@@ -1,3 +1,4 @@
+"use strict"
 const expect = require('expect')
 
 const fs = require('fs')
@@ -13,6 +14,8 @@ describe('index', () => {
   
 
   it('runs', () => {
-    expect(true).to.be.true
+   expect(true).toEqual(true);
+
+   // expect(true).to.be.true
   })
 })
